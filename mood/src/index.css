@@ -1,0 +1,48 @@
+/* Add your CSS styles below */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 40px;
+}
+
+form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+label, select, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+button {
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#music-output {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #e0e0e0;
+    border-radius: 8px;
+    min-height: 50px;
+}
+    
