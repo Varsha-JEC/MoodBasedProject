@@ -59,8 +59,7 @@ function App() {
         ))}
       </div>
 
-      // ...existing code...
-
+     
       {currentMood && (
         <div className="mood-message" style={{ backgroundColor: currentMood.color }}>
           <p>{currentMood.message}</p>
@@ -70,7 +69,7 @@ function App() {
           </audio>
         </div>
       )}
-// ...existing code...
+
     </div>
   );
 }
