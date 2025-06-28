@@ -59,15 +59,18 @@ function App() {
         ))}
       </div>
 
+      // ...existing code...
+
       {currentMood && (
         <div className="mood-message" style={{ backgroundColor: currentMood.color }}>
           <p>{currentMood.message}</p>
-          <audio ref={audioRef} controls>
+          <audio ref={audioRef} controls autoPlay>
             <source src={currentMood.audio} type="audio/mpeg" />
             Your browser does not support the audio element.
           </audio>
         </div>
       )}
+// ...existing code...
     </div>
   );
 }
