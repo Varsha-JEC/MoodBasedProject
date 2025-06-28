@@ -17,7 +17,7 @@ function App() {
   const audioRef = useRef(null);
   const [currentMood, setCurrentMood] = useState(null);
 
-  // ...existing code...
+  
   const moods = [
     { name: 'Happy', icon: 'fa-face-smile', color: '#1db954', message: "I'm feeling happy today! 😊", audio: '/songs/Happy.mp3' },
     { name: 'Sad', icon: 'fa-face-sad-tear', color: '#3e4a61', message: "I'm feeling a bit down 😔", audio: '/songs/Sad.mp3' },
@@ -27,7 +27,7 @@ function App() {
     { name: 'Travelling', icon: 'fa-plane', color: '#00b894', message: "On the road and loving the journey! ✈️", audio: '/songs/Travelling.mp3' },
     { name: 'Romantic', icon: 'fa-heart', color: '#e17055', message: "Feeling romantic and dreamy 💖", audio: '/songs/Romantic.mp3' },
   ];
-// ...existing code...
+
 
   const handleMoodClick = (mood) => {
     setCurrentMood(mood);
